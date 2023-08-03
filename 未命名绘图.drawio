@@ -1,9 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T09:48:40.712Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" version="21.6.6" etag="44UIrn5FsXy_YO1XtqXr" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-03T09:58:07.373Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="wKWsWsrckKinHZFb6f9r" version="21.6.6" type="github">
   <diagram name="第 1 页" id="nA6e5Lx56KR45NuwyuHw">
-    <mxGraphModel>
+    <mxGraphModel dx="1107" dy="1770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OaZ8Fp8TlD0SPtp78fOP-11" value="前雷达自身故障监控状态" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="312" width="191" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="OaZ8Fp8TlD0SPtp78fOP-12" value="前雷达信号完整性-E2E检查" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="269" y="103" width="207" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="OaZ8Fp8TlD0SPtp78fOP-13" value="前左角雷达自身故障监控状态" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="261" y="187" width="223" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="OaZ8Fp8TlD0SPtp78fOP-14" value="前左角雷达信号完整性-E2E检查" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="659" y="-13" width="239" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="OaZ8Fp8TlD0SPtp78fOP-15" value="前右角雷达自身故障监控状态" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="261" y="270" width="223" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="OaZ8Fp8TlD0SPtp78fOP-16" value="前右角雷达信号完整性-E2E检查" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="659" y="70" width="239" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="OaZ8Fp8TlD0SPtp78fOP-17" value="后左角雷达自身故障监控状态" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="261" y="354" width="224" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="OaZ8Fp8TlD0SPtp78fOP-18" value="后左角雷达信号完整性-E2E检查" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="659" y="154" width="240" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="OaZ8Fp8TlD0SPtp78fOP-19" value="后右角雷达自身故障监控状态" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="261" y="437" width="224" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="OaZ8Fp8TlD0SPtp78fOP-20" value="后右角雷达信号完整性-E2E检查" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="659" y="237" width="240" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="OaZ8Fp8TlD0SPtp78fOP-21" value="" style="startArrow=none;endArrow=block;exitX=0.5505317226039004;exitY=-0.0030301411946614585;entryX=0.0014341787439613527;entryY=0.5181818875399503;rounded=0;" edge="1" parent="1" source="OaZ8Fp8TlD0SPtp78fOP-11" target="OaZ8Fp8TlD0SPtp78fOP-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OaZ8Fp8TlD0SPtp78fOP-22" value="" style="startArrow=none;endArrow=block;exitX=0.5842195376731674;exitY=-0.0030301411946614585;entryX=0.0017937288156004766;entryY=0.5000001155968868;rounded=0;" edge="1" parent="1" source="OaZ8Fp8TlD0SPtp78fOP-11" target="OaZ8Fp8TlD0SPtp78fOP-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OaZ8Fp8TlD0SPtp78fOP-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.0008368392369737187;entryY=0.5060606291799834;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OaZ8Fp8TlD0SPtp78fOP-12" target="OaZ8Fp8TlD0SPtp78fOP-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="37" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OaZ8Fp8TlD0SPtp78fOP-24" value="" style="startArrow=none;endArrow=block;exitX=0.7526586130195022;exitY=-0.0030301411946614585;entryX=0.0017937288156004766;entryY=0.5121213739568536;rounded=0;" edge="1" parent="1" source="OaZ8Fp8TlD0SPtp78fOP-11" target="OaZ8Fp8TlD0SPtp78fOP-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OaZ8Fp8TlD0SPtp78fOP-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.0008368392369737187;entryY=0.5181818875399503;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OaZ8Fp8TlD0SPtp78fOP-12" target="OaZ8Fp8TlD0SPtp78fOP-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="600" y="87.0970997032108" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OaZ8Fp8TlD0SPtp78fOP-26" value="" style="startArrow=none;endArrow=block;exitX=0.7526586130195022;exitY=1.0090911171653054;entryX=0;entryY=0.4939396020137902;rounded=0;" edge="1" parent="1" source="OaZ8Fp8TlD0SPtp78fOP-11" target="OaZ8Fp8TlD0SPtp78fOP-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OaZ8Fp8TlD0SPtp78fOP-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.75;entryX=-0.0008333206176757812;entryY=0.5000001155968868;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OaZ8Fp8TlD0SPtp78fOP-12" target="OaZ8Fp8TlD0SPtp78fOP-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="204" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OaZ8Fp8TlD0SPtp78fOP-28" value="" style="startArrow=none;endArrow=block;exitX=0.5842195376731674;exitY=1.0090911171653054;entryX=0;entryY=0.5060608603737571;rounded=0;edgeStyle=isometricEdgeStyle;" edge="1" parent="1" source="OaZ8Fp8TlD0SPtp78fOP-11" target="OaZ8Fp8TlD0SPtp78fOP-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OaZ8Fp8TlD0SPtp78fOP-29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=1;entryX=-0.0008333206176757812;entryY=0.5121213739568536;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OaZ8Fp8TlD0SPtp78fOP-12" target="OaZ8Fp8TlD0SPtp78fOP-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="287" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
